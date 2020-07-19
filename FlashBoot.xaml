@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProjectComplete2.FlashBoot"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectComplete2"
+        mc:Ignorable="d"
+        Title="FlashBoot" Height="407" Width="800" MinWidth="800" Background="#FF191919" MinHeight="407">
+    <Grid Margin="0,0,0,-1">
+        <Label Content="Do you want to flash TWRP, or just boot it?" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Width="717" Height="60" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
+            <Image Margin="5,9" Source="61752.png" Stretch="Fill"/>
+        </Border>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="292" Margin="138,75,0,10" VerticalAlignment="Center" Width="220" Background="#FF0097FF">
+            <Label Content="Flash TWRP" Height="62" VerticalAlignment="Center" Margin="47,229,50,-1" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalAlignment="Center" Width="121"/>
+        </Border>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="292" Margin="0,75,150,10" VerticalAlignment="Center" Width="220" Background="#FF0097FF">
+            <Label Content="Boot TWRP" Height="62" VerticalAlignment="Bottom" Margin="0,252,-1,-1" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalAlignment="Center"/>
+        </Border>
+        <Image Margin="138,75,0,76" Source="icon-flash-512.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Center" MaxWidth="220" MaxHeight="253" Height="226"/>
+        <Image Margin="0,75,150,76" Source="4485615.png" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" MaxWidth="220" MaxHeight="253" Height="226"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="292" Margin="138,75,0,10" VerticalAlignment="Center" Width="220" Opacity="0" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,79,150,10" VerticalAlignment="Center" Width="220" Height="288" Opacity="0" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>

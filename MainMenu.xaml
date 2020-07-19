@@ -1,0 +1,40 @@
+﻿<Window x:Class="ProjectComplete2.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectComplete2"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="405.915" Width="684.115" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid Background="#FF292929" MaxWidth="925" MaxHeight="419" Height="379" VerticalAlignment="Top" HorizontalAlignment="Left" Width="683" Margin="-2,-1,-5,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="What do you want to do today?" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="488" Foreground="White" VerticalContentAlignment="Center" FontSize="36" HorizontalContentAlignment="Center" FontFamily="Segoe UI Light"/>
+        <Rectangle Fill="#FF474747" HorizontalAlignment="Left" Height="276" Margin="10,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
+        <Image Margin="10,83,0,0" Source="box+document+outline+share+top+upload+icon-1320195323221671611.png" Stretch="Fill" Height="193" VerticalAlignment="Top" HorizontalAlignment="Left" Width="198"/>
+        <Label Content="Flash Treble Image" HorizontalAlignment="Left" Height="78" Margin="10,281,0,0" VerticalAlignment="Top" Width="198" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Rectangle Fill="#FF474747" HorizontalAlignment="Left" Height="276" Margin="238,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
+        <Label Content="Unlock Bootloader" HorizontalAlignment="Left" Height="78" Margin="238,281,0,0" VerticalAlignment="Top" Width="198" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="238,83,0,0" Width="198" Background="White" Click="Button_Click" Height="276" VerticalAlignment="Top">
+            <Button.OpacityMask>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </Button.OpacityMask>
+        </Button>
+        <Image Margin="238,83,0,0" Source="89647-200.png" Stretch="Fill" HorizontalAlignment="Left" Width="198" Height="193" VerticalAlignment="Top"/>
+        <Rectangle Fill="#FF474747" HorizontalAlignment="Left" Height="276" Margin="467,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
+        <Label Content="Flash TWRP" HorizontalAlignment="Left" Height="78" Margin="467,281,0,0" VerticalAlignment="Top" Width="198" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="276" Margin="467,83,0,0" VerticalAlignment="Top" Width="198" Background="White" Click="Button_Click">
+            <Button.OpacityMask>
+                <SolidColorBrush Color="Black" Opacity="0"/>
+            </Button.OpacityMask>
+        </Button>
+        <Image Margin="467,73,0,0" Source="icon.png" Stretch="Fill" HorizontalAlignment="Left" Width="198" Height="193" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="276" Margin="10,83,0,0" VerticalAlignment="Top" Width="198" Foreground="#00000000" Opacity="0" Click="Button_Click_2">
+            <Button.Background>
+                <SolidColorBrush Color="#FFDDDDDD" Opacity="0"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
