@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkit"
         mc:Ignorable="d"
-        Title="Treble Toolkit - Compatible Devices" Height="500" Width="730" MinWidth="730" MinHeight="500" Background="#FF191919">
+        Title="Compatible Devices" Height="500" Width="730" MinWidth="730" MinHeight="500" Background="#FF191919">
     <Grid>
         <Label Content="Compatible Devices" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="508" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Image Margin="5,9" Source="61752.png" Stretch="Fill"/>
+            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="320" Margin="10,106,0,43" VerticalAlignment="Center" Width="220" Background="#FF4D4D4D">
@@ -26,6 +26,6 @@
             <Label Content="Sony Xperia 5" Margin="-1,246,-1,-1" Width="220" Height="73" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Border>
         <Image Margin="518,134,0,129" Source="137153-v1-sony-xperia-5-mobile-phone-large-1.png" Stretch="Fill" MaxWidth="157" MaxHeight="206" MinWidth="157" MinHeight="206" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="485,106,0,0" VerticalAlignment="Top" Width="220" Height="320" Background="{x:Null}" Opacity="0" Click="Button_Click_2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="485,106,0,0" VerticalAlignment="Top" Width="220" Height="320" Opacity="0" Click="Button_Click_5"/>
     </Grid>
 </Window>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkit"
         mc:Ignorable="d"
-        Title="Treble Toolkit - Flashing Permissiver v5" Height="253.608" Width="800" MinWidth="800" MinHeight="253.608" Background="#FF191919">
+        Title="Flashing Permissiver v5" Height="253.608" Width="800" MinWidth="800" MinHeight="253.608" Background="#FF191919">
     <Grid>
         <Label Content="Android 10" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="191" FontSize="36" FontFamily="Segoe UI Semibold" Foreground="White"/>
         <Border BorderThickness="1" HorizontalAlignment="Right" Height="52" Margin="0,0,6,7" VerticalAlignment="Bottom" Width="218" Background="#FF4D4D4D">
@@ -13,7 +13,7 @@
         </Border>
         <Button Content="Button" Margin="0,0,10,10" Opacity="0" Click="Button_Click" HorizontalAlignment="Right" Width="214" VerticalAlignment="Bottom" Height="49"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Image Margin="5,9" Source="61752.png" Stretch="Fill"/>
+            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
         <TextBlock Margin="10,75,10,64" TextWrapping="Wrap" Foreground="White" FontSize="20" FontFamily="Segoe UI Semibold"><Run Text="You are about to flash Permissiver v5 for Android 10. Do you want to continue?"/><LineBreak/><Run Text="Make su"/><Run Text="r"/><Run Text="e your phone is in TWRP's ADB Sideload mode"/></TextBlock>

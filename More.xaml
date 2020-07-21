@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkit"
         mc:Ignorable="d"
-        Title="Treble Toolkit - Extras" Height="558.5" Width="1013" MinWidth="1013" MinHeight="558.5" Background="#FF191919">
+        Title="Extras" Height="558.5" Width="1013" MinWidth="1013" MinHeight="558.5" Background="#FF191919">
     <Grid>
         <Label Content="Which one fits your necessities?" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="541" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Image Margin="5,9" Source="61752.png" Stretch="Fill"/>
+            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click"/>
         <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="10,86,795,0" VerticalAlignment="Top" Width="200" Background="#FF4D4D4D">

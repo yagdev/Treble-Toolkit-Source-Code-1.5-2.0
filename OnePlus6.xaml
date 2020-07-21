@@ -5,17 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkit"
         mc:Ignorable="d"
-        Title="Treble Toolkit Compatible Devices - OnePlus 6" Height="500" Width="800" MinWidth="800" Background="#FF191919" MinHeight="500">
+        Title="Compatible Devices - OnePlus 6" Height="500" Width="800" MinWidth="800" Background="#FF191919" MinHeight="500">
     <Grid>
         <Label Content="OnePlus 6" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="190" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Image Margin="5,9" Source="61752.png" Stretch="Fill"/>
+            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
-        <Border BorderThickness="1" Margin="10,89,556,10" Width="226" Background="#FF4D4D4D" HorizontalAlignment="Left" VerticalAlignment="Center">
-            <Image Margin="9,95,9,82" Source="purepng.com-oneplus-6notchoneplus6phone-315314303327kpn9.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" MaxHeight="206"/>
-        </Border>
+        <Border BorderThickness="1" Margin="10,89,556,10" Width="226" Background="#FF4D4D4D" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <Label Content="Brand: OnePlus&#xD;&#xA;Model: 6&#xD;&#xA;Release Date: 16/5/2018&#xD;&#xA;CPU: Qualcomm Snapdragon 845&#xD;&#xA;GPU: Adreno 630&#xD;&#xA;RAM: 6/8GB&#xD;&#xA;Battery: 3300MAh&#xD;&#xA;Cameras: 16MP+20MP Back, 16MP Front&#xD;&#xA;Storage: 64/128/256GB&#xD;&#xA;Android Versions: 8.1, 9.0, 10&#xD;&#xA;Kernel: 4.9&#xD;&#xA;Partition Scheme: A/B&#xD;&#xA;https://www.oneplus.com/6" HorizontalAlignment="Left" Margin="241,89,0,0" VerticalAlignment="Center" Height="380" Width="551" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="20"/>
+        <Image Margin="25,167,0,111" Source="purepng.com-oneplus-6notchoneplus6phone-315314303327kpn9.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Center" MaxHeight="206" Width="184"/>
 
     </Grid>
 </Window>

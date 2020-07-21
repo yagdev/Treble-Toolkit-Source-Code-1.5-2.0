@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectComplete2"
         mc:Ignorable="d"
-        Title="Treble Toolkit - Flashing TWRP" Height="378" Width="800" MinWidth="800" MinHeight="378">
+        Title="Flashing TWRP" Height="378" Width="800" MinWidth="800" MinHeight="378">
     <Grid Background="#FF191919">
         <Label Content="TWRP Flasher" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="251" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
         <Label Content="https://forum.xda-developers.com/project-treble/trebleenabled-device-development/treble-gsi-flashing-tool-b-t4040435" Margin="0,222.5,0,0" VerticalAlignment="Top" Height="41" Background="{x:Null}" Foreground="#FF0068FF" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold"/>
@@ -13,7 +13,7 @@
         <Label Content="Proceed" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="72" Width="262" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold"/>
         <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="262" Height="72" Opacity="0" Click="Button_Click_1"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Image Margin="5,9" Source="61752.png" Stretch="Fill"/>
+            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
         <TextBlock Margin="10,75,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="147.5" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="White"><Run Text="This only works on A devices, as the recovery image is embedded into the boot image in"/><Run Text=" "/><Run Text="A/B devices. If your device is A/B, use the respective flasher."/><LineBreak/><Run Text="Place the TWRP image in the TWRP folder"/><LineBreak/><Run Text="If any problem occurs, try changing the image."/><LineBreak/><Run Text="If it works normally/doesn't work, please report it to our forum:"/></TextBlock>

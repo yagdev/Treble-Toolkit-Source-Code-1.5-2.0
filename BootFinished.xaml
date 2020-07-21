@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectComplete2"
         mc:Ignorable="d"
-        Title="Treble Toolkit - Script Finished" Height="269.072" Width="800" MinWidth="800" MinHeight="269.072" Background="#FF191919">
+        Title="Script Finished" Height="269.072" Width="800" MinWidth="800" MinHeight="269.072" Background="#FF191919">
     <Grid>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="75" Margin="0,0,9,10" VerticalAlignment="Bottom" Width="229" Background="#FF513535">
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="75" Margin="0,0,9,10" VerticalAlignment="Bottom" Width="229" Background="#FF4D4D4D">
             <Label Content="Close Program" Foreground="White" Background="{x:Null}" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,-1,-1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Border>
 
-        <Label Content="TWRP Booting" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="59" Width="253" Foreground="#FF68FF00" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <Label Content="TWRP Booting" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="59" Width="253" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
         <Label Content="TWRP Booting script ended.&#xA;You can close the program or go to the main menu" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="772" Height="70" Foreground="White" FontSize="20" FontFamily="Segoe UI Semibold"/>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="228" Height="75" Opacity="0" Click="Button_Click_1" Foreground="{x:Null}"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="75" Margin="9,0,0,9" VerticalAlignment="Bottom" Width="228" Background="#FF383838">
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,9,9" VerticalAlignment="Bottom" Width="228" Height="75" Opacity="0" Click="Button_Click_1" Foreground="{x:Null}"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="75" Margin="9,0,0,9" VerticalAlignment="Bottom" Width="228" Background="#FF4D4D4D">
             <Label Content="Go to main menu" Foreground="White" Background="{x:Null}" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="30,18,27,18" HorizontalAlignment="Center" VerticalAlignment="Center" Width="169"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="227" Height="74" Opacity="0" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,0,0,11" VerticalAlignment="Bottom" Width="227" Height="74" Opacity="0" Click="Button_Click"/>
 
     </Grid>
 </Window>

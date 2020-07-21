@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectComplete2"
         mc:Ignorable="d"
-        Title="Treble Toolkit - Flashing TWRP" Height="450" Width="800" MinWidth="800" MinHeight="450" Background="#FF191919">
+        Title="Flashing TWRP" Height="450" Width="800" MinWidth="800" MinHeight="450" Background="#FF191919">
     <Grid>
         <Label Content="What is your phone's partition layout?" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="646" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="260" Margin="45,121,0,38" VerticalAlignment="Center" Width="260" Background="#FF4D4D4D">
@@ -17,7 +17,7 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="45,121,0,38" VerticalAlignment="Center" Width="260" Height="260" Opacity="0" Click="Button_Click"/>
         <Button Content="Button" HorizontalAlignment="Right" Height="260" Margin="0,121,55,38" VerticalAlignment="Center" Width="260" Opacity="0" Click="Button_Click_1"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Image Margin="5,9" Source="61752.png" Stretch="Fill"/>
+            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
 

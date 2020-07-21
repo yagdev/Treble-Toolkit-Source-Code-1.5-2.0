@@ -31,7 +31,7 @@
     <ProductName>Treble Toolkit GUI</ProductName>
     <PublisherName>YAG-DEV %28stevegsames%29</PublisherName>
     <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.5.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -95,7 +95,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
@@ -389,9 +389,6 @@
     <Resource Include="icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="271218.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
@@ -414,9 +411,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="4485615.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="1200px-Unlock_icon.svg.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="61752.png" />
@@ -459,6 +453,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="137153-v1-sony-xperia-5-mobile-phone-large-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="unlocking-solid-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="iconfinder_icon-flash_211664.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="28599-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kisspng-computer-icons-icon-design-encapsulated-postscript-more-info-icon-5b4fcee4a128a8.7836483215319569646601.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

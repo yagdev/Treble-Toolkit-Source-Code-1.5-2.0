@@ -51,5 +51,12 @@ namespace TrebleToolkit
             win2.Show();
             this.Close();
         }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            var win2 = new Xp5();
+            win2.Show();
+            this.Close();
+        }
     }
 }
