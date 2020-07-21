@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Treble Toolkit Lite" Height="665" Width="300" Background="#FF191919">
     <Grid>
-        <Label Content="Treble Toolkit GUI Lite" HorizontalAlignment="Center" Margin="10,3,10,0" VerticalAlignment="Top" Width="272" Height="43" FontFamily="Segoe UI Semibold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White"/>
+        <Label Content="Treble Toolkit Lite" HorizontalAlignment="Center" Margin="10,3,10,0" VerticalAlignment="Top" Width="272" Height="43" FontFamily="Segoe UI Semibold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White"/>
         <Border BorderThickness="1" Height="40" Margin="10,46,10,548" VerticalAlignment="Center" Background="#FF4D4D4D">
             <Label Content="Flash A ROMs" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
