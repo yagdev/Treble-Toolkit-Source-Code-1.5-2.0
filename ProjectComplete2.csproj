@@ -394,6 +394,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="1200px-Infobox_info_icon.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="4485615.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="770px-Android_Oreo_8.1_logo.svg.png" />
   </ItemGroup>
   <ItemGroup>

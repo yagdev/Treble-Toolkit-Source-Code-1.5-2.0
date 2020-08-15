@@ -5,25 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkit"
         mc:Ignorable="d"
-        Title="Compatible Devices" Height="500" Width="730" MinWidth="730" MinHeight="500" Background="#FF191919">
+        Title="Compatible Devices" Height="500" Width="730" MinWidth="730" MinHeight="500" Background="#FFC9C9C9">
     <Grid>
-        <Label Content="Compatible Devices" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="508" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
+        <Label Content="Compatible Devices" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="508" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FFB2B2B2">
+            <Label Content="←" FontSize="36" Foreground="#FF3E3E3E" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="320" Margin="10,106,0,43" VerticalAlignment="Center" Width="220" Background="#FF4D4D4D">
-            <Label Content="OnePlus 6" Margin="0,247,0,0" Width="218" Height="70" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="320" Margin="10,106,0,43" VerticalAlignment="Center" Width="220" Background="#FFB2B2B2">
+            <Label Content="OnePlus 6" Margin="0,247,0,0" Width="218" Height="70" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="#FF3E3E3E" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Border>
         <Image Margin="10,131,0,129" Source="purepng.com-oneplus-6notchoneplus6phone-315314303327kpn9.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Center" MaxWidth="220" MaxHeight="209" Width="220" Height="209"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,106,0,43" VerticalAlignment="Center" Width="220" Height="320" Opacity="0" Click="Button_Click"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="320" Margin="248,106,0,43" VerticalAlignment="Center" Width="220" Background="#FF4D4D4D">
-            <Label Content="Sony Xperia XZ2 Dual" Margin="-1,246,-1,-1" Width="220" Height="73" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="320" Margin="248,106,0,43" VerticalAlignment="Center" Width="220" Background="#FFB2B2B2">
+            <Label Content="Sony Xperia XZ2 Dual" Margin="-1,246,-1,-1" Width="220" Height="73" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="#FF3E3E3E" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Border>
         <Image Margin="293,134,0,131" Source="476x840.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Center" Width="132" Height="204" MaxWidth="132" MaxHeight="204"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="248,106,0,0" VerticalAlignment="Top" Width="220" Height="320" Opacity="0" Click="Button_Click_1"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="320" Margin="485,106,0,43" VerticalAlignment="Center" Width="220" Background="#FF4D4D4D">
-            <Label Content="Sony Xperia 5" Margin="-1,246,-1,-1" Width="220" Height="73" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="320" Margin="485,106,0,43" VerticalAlignment="Center" Width="220" Background="#FFB2B2B2">
+            <Label Content="Sony Xperia 5" Margin="-1,246,-1,-1" Width="220" Height="73" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="#FF3E3E3E" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Border>
         <Image Margin="518,134,0,129" Source="137153-v1-sony-xperia-5-mobile-phone-large-1.png" Stretch="Fill" MaxWidth="157" MaxHeight="206" MinWidth="157" MinHeight="206" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="485,106,0,0" VerticalAlignment="Top" Width="220" Height="320" Opacity="0" Click="Button_Click_5"/>

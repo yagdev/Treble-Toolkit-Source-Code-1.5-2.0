@@ -5,23 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkit"
         mc:Ignorable="d"
-        Title="Flashing Permissiver" Height="450" Width="758.804" MinHeight="450" Background="#FF191919" MinWidth="758.804">
+        Title="Flashing Permissiver" Height="450" Width="758.804" MinHeight="450" Background="#FFC9C9C9" MinWidth="758.804">
     <Grid>
-        <Label Content="What Android version are you flashing?" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="662" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
+        <Label Content="What Android version are you flashing?" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="662" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FFB2B2B2">
+            <Label Content="←" FontSize="36" Foreground="#FF3E3E3E" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="307" Margin="10,86,0,26" VerticalAlignment="Center" Width="216" Background="#FF4D4D4D">
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="307" Margin="10,86,0,26" VerticalAlignment="Center" Width="216" Background="#FFB2B2B2">
             <Image Margin="-1,43,-1,44" Source="770px-Android_Oreo_8.1_logo.svg.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Center" MaxWidth="216" MaxHeight="218"/>
         </Border>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="307" Margin="267,86,268,26" VerticalAlignment="Center" Width="216" Background="#FF4D4D4D"/>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="307" Margin="0,87,10,25" VerticalAlignment="Center" Width="216" Background="#FF4D4D4D"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="307" Margin="267,86,268,26" VerticalAlignment="Center" Width="216" Background="#FFB2B2B2"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="307" Margin="0,87,10,25" VerticalAlignment="Center" Width="216" Background="#FFB2B2B2"/>
         <Image Margin="268,127,267,76" Source="com.thegosa.anropstyle.iconpack_HiAppHere.com.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="216" MaxHeight="216"/>
         <Image Margin="0,127,10,76" Source="Android-q-logo.png" Stretch="Fill" HorizontalAlignment="Right" VerticalAlignment="Center" Width="216" MaxWidth="216" MaxHeight="216"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,86,0,26" VerticalAlignment="Center" Width="216" Height="307" Opacity="0" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="267,87,268,25" VerticalAlignment="Center" Width="216" Height="307" Opacity="0" Click="Button_Click_1"/>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,87,10,25" VerticalAlignment="Center" Width="216" Height="307" Opacity="0" Click="Button_Click_2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,87,0,25" VerticalAlignment="Center" Width="216" Height="307" Opacity="0" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="268,86,267,26" VerticalAlignment="Center" Width="216" Height="307" Opacity="0" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,86,10,26" VerticalAlignment="Center" Width="216" Height="307" Opacity="0" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

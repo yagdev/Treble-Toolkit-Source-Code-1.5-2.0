@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectComplete2"
         mc:Ignorable="d"
-        Title="Unlocking Bootloader" Height="529.5" Width="800" MinWidth="800" MinHeight="529.5" Background="#FF191919">
+        Title="Unlocking Bootloader" Height="529.5" Width="800" MinWidth="800" MinHeight="529.5" Background="#FFC9C9C9">
     <Grid>
-        <Label Content="Unlock Bootloader" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="320" Foreground="White" FontSize="36" FontFamily="Segoe UI Semibold"/>
+        <Label Content="Unlock Bootloader" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="320" Foreground="#FF3E3E3E" FontSize="36" FontFamily="Segoe UI Semibold"/>
         <Label Content="https://forum.xda-developers.com/project-treble/trebleenabled-device-development/treble-gsi-flashing-tool-b-t4040435" Margin="0,385,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF0068FF" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold"/>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="52" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="290" Background="#FF4D4D4D">
-            <Label Content="Proceed" HorizontalAlignment="Right" Margin="-1" VerticalAlignment="Bottom" Width="290" Height="52" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="30" FontFamily="Segoe UI Semibold"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="52" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="290" Background="#FFB2B2B2">
+            <Label Content="Proceed" HorizontalAlignment="Right" Margin="-1" VerticalAlignment="Bottom" Width="290" Height="52" Foreground="#FF3E3E3E" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="30" FontFamily="Segoe UI Semibold"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,5,5" VerticalAlignment="Bottom" Width="287" Height="52" Opacity="0" Click="Button_Click_1"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,8,5" VerticalAlignment="Bottom" Width="287" Height="52" Opacity="0" Click="Button_Click_1"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FFB2B2B2">
+            <Label Content="←" FontSize="36" Foreground="#FF3E3E3E" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
-        <TextBlock Margin="10,75,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="305" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="White"><Run Text="Before starting:"/><LineBreak/><Run Text="- Huawei/Xiaomi MIUI devices aren't supported, as they require a key. "/><LineBreak/><Run Text="(Treble Flash still works on those brands if you have an unlocked bootloader)"/><LineBreak/><Run Text="- Unlocking your bootloader completely WIPES your data. Make sure you backup your"/><Run Text=" "/><Run Text="data "/><LineBreak/><Run Text="before proceeding."/><LineBreak/><Run Text="- Unlocking your bootloader may void your warranty."/><LineBreak/><Run Text="- This proceedure also works on older devices that don't support treble, however flashing"/><Run Text=" "/><Run Text="GSIs"/><Run Text=" "/><Run Text="won't work on those older devices."/><LineBreak/><Run Text="- Some phones brick when you unlock the bootloader."/><LineBreak/><Run Text="- If you have any question/bug report, go to:"/></TextBlock>
+        <TextBlock Margin="10,75,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="305" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="#FF3E3E3E"><Run Text="Before starting:"/><LineBreak/><Run Text="- Huawei/Xiaomi MIUI devices aren't supported, as they require a key. "/><LineBreak/><Run Text="(Treble Flash still works on those brands if you have an unlocked bootloader)"/><LineBreak/><Run Text="- Unlocking your bootloader completely WIPES your data. Make sure you backup your"/><Run Text=" "/><Run Text="data "/><LineBreak/><Run Text="before proceeding."/><LineBreak/><Run Text="- Unlocking your bootloader may void your warranty."/><LineBreak/><Run Text="- This proceedure also works on older devices that don't support treble, however flashing"/><Run Text=" "/><Run Text="GSIs"/><Run Text=" "/><Run Text="won't work on those older devices."/><LineBreak/><Run Text="- Some phones brick when you unlock the bootloader."/><LineBreak/><Run Text="- If you have any question/bug report, go to:"/></TextBlock>
 
     </Grid>
 </Window>

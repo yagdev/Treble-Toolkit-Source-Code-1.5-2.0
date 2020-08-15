@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectComplete2"
         mc:Ignorable="d"
-        Title="Script Finished" Height="265.979" Width="800" MinWidth="800" MinHeight="265.979" Background="#FF191919">
+        Title="Script Finished" Height="265.979" Width="800" MinWidth="800" MinHeight="265.979" Background="#FFC9C9C9">
     <Grid>
-        <Label Content="TWRP Flashed" HorizontalAlignment="Left" Margin="9,10,0,0" VerticalAlignment="Top" Height="54" Width="250" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
-        <Label Content="TWRP Flash ended.&#xD;&#xA;You can close the program or go to the main menu" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="772" Height="70" Foreground="White" FontSize="20" FontFamily="Segoe UI Semibold"/>
-        <Label Content="Go to main menu" Foreground="White" Background="#FF4D4D4D" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="74" Margin="10,0,0,9" Width="227"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="9,0,0,9" VerticalAlignment="Bottom" Width="228" Height="75" Opacity="0" Click="Button_Click"/>
-        <Label Content="Close Program" Foreground="White" Background="#FF4D4D4D" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="74" Margin="0,0,10,11" Width="228"/>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,11,10" VerticalAlignment="Bottom" Width="228" Height="75" Opacity="0" Click="Button_Click_1"/>
+        <Label Content="TWRP Flashed" HorizontalAlignment="Left" Margin="9,10,0,0" VerticalAlignment="Top" Height="54" Width="250" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <Label Content="TWRP Flash ended.&#xD;&#xA;You can close the program or go to the main menu" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="772" Height="70" Foreground="#FF3E3E3E" FontSize="20" FontFamily="Segoe UI Semibold"/>
+        <Label Content="Go to main menu" Foreground="#FF3E3E3E" Background="#FFB2B2B2" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="74" Margin="10,0,0,9" Width="227"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="9,0,0,7" VerticalAlignment="Bottom" Width="228" Height="75" Opacity="0" Click="Button_Click"/>
+        <Label Content="Close Program" Foreground="#FF3E3E3E" Background="#FFB2B2B2" FontFamily="Segoe UI Semibold" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="74" Margin="0,0,10,11" Width="228"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,10,11" VerticalAlignment="Bottom" Width="228" Height="75" Opacity="0" Click="Button_Click_1"/>
     </Grid>
 </Window>
