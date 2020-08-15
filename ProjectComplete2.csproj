@@ -132,7 +132,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Treble Toolkit.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>TrebleToolkitKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -373,19 +373,12 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Treble Toolkit.pfx" />
+    <None Include="TrebleToolkitKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="box+document+outline+share+top+upload+icon-1320195323221671611.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="89647-200.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="icon-flash-512.png" />
     <Resource Include="icon.png" />
   </ItemGroup>
   <ItemGroup>
@@ -401,21 +394,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="computer-icons-information-icon-design-info-icon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="1200px-Infobox_info_icon.svg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="518478_preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="4485615.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="61752.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="770px-Android_Oreo_8.1_logo.svg.png" />
   </ItemGroup>
   <ItemGroup>
@@ -428,28 +406,13 @@
     <Resource Include="purepng.com-oneplus-6notchoneplus6phone-315314303327kpn9.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="info.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="unnamed.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="img_411364.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="twrplogo-256x256.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="36758.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="476x840.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="476x840.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="137153-v1-sony-xperia-5-plus-mobile-phone-large-1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="137153-v1-sony-xperia-5-mobile-phone-large-1.png" />
