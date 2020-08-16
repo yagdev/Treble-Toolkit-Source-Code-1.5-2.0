@@ -16,7 +16,7 @@
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FFB2B2B2">
             <Label Content="←" FontSize="36" Foreground="#FF3E3E3E" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="-81,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
         <TextBlock Margin="10,75,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="149" FontFamily="Segoe UI Semibold" FontSize="20" Foreground="#FF3E3E3E"><Run Text="This only works on A/B devices, as the recovery image is embedded into the boot image in A/B devices. If your device is A, use the respective"/><Run Text=" "/><Run Text="flasher."/><LineBreak/><Run Text="Place the TWRP image and flashable zip in the TWRP folder"/><Run Text="."/><LineBreak/><Run Text="If any problem occurs, try changing the image."/><LineBreak/><Run Text="If it works normally/doesn't work, please report it to our forum:"/></TextBlock>
     </Grid>
 </Window>

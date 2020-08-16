@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Main Menu" Height="406.295" Width="905.215" Background="#FFC9C9C9" HorizontalAlignment="Left" VerticalAlignment="Top" MinWidth="905.215" MinHeight="406.295">
     <Grid Margin="0,0,-8,-21">
-        <Label Content="What do you need to do today?" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="36" Margin="10,10,355,319"/>
+        <Label Content="Welcome to Treble Toolkit" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="36" Margin="10,10,355,319"/>
         <Border BorderThickness="1" Height="67" Width="67" Background="#FFB2B2B2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,8,19,0">
             <Image Margin="9" Source="kisspng-computer-icons-icon-design-encapsulated-postscript-more-info-icon-5b4fcee4a128a8.7836483215319569646601.png" Stretch="Fill"/>
         </Border>
