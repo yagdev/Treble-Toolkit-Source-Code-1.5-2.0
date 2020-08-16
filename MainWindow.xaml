@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectLiteCompatible"
         mc:Ignorable="d"
-        Title="Treble Toolkit Lite" Height="665" Width="300" Background="#FFC9C9C9">
+        Title="Treble Toolkit Lite" Height="665" Width="300" Background="#FFC9C9C9" MinWidth="300" MinHeight="665">
     <Grid>
         <Label Content="Treble Toolkit Lite" HorizontalAlignment="Center" Margin="10,3,10,0" VerticalAlignment="Top" Width="272" Height="43" FontFamily="Segoe UI Semibold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FF3E3E3E"/>
         <Border BorderThickness="1" Height="40" Margin="10,46,10,548" VerticalAlignment="Center" Background="#FFB2B2B2">

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectLiteCompatible;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
@@ -11,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TrebleToolkitLite;
 
 namespace ProjectLiteCompatible
 {
@@ -126,12 +128,8 @@ namespace ProjectLiteCompatible
 
         private void Button_Click_10(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "viewchangelog.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            var win3 = new About2();
+            win3.Show();
         }
 
         private void Button_Click_11(object sender, RoutedEventArgs e)
