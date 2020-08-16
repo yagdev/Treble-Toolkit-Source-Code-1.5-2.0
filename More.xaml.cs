@@ -84,12 +84,8 @@ namespace TrebleToolkit
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "viewchangelog.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            var win2 = new About();
+            win2.Show();
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)

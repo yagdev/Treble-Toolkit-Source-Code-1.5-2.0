@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="Script Finished" Height="450" Width="800" MinWidth="800" MinHeight="450" Background="#FF191919">
     <Grid>
-        <Label Content="Bootloader Unlocked!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="63" Width="373" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36"/>
-        <Label Content="Don't interrupt the formatting of the phone!&#xD;&#xA;Doing so may brick your phone.&#xD;&#xA;If your phone has treble support, you can use the Treble Flasher.&#xD;&#xA;You can also flash TWRP, depending on your phone's support.&#xD;&#xA;If you have any questions, go to our forum:" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Height="148" Width="772" Foreground="White" FontSize="20" FontFamily="Segoe UI Semibold"/>
+        <Label Content="Bootloader Unlocked!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="63" Width="373" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <Label Content="Don't interrupt the formatting of the phone!&#xD;&#xA;Doing so may brick your phone.&#xD;&#xA;If your phone has treble support, you can use the Treble Flasher.&#xD;&#xA;You can also flash TWRP, depending on your phone's support.&#xD;&#xA;If you have any questions, go to our forum:" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Height="148" Width="772" Foreground="#FFE0E0E0" FontSize="20" FontFamily="Segoe UI Semibold"/>
         <Label Content="https://forum.xda-developers.com/project-treble/trebleenabled-device-development/treble-gsi-flashing-tool-b-t4040435" Margin="10,225,10,0" VerticalAlignment="Top" Height="38" Background="{x:Null}" Foreground="#FF0068FF" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold"/>
-        <Label Content="If it worked, please report it at our forum, so that we can add it to the working list.&#xD;&#xA;You can go to the main menu or close this program" HorizontalAlignment="Left" Margin="10,268,0,0" VerticalAlignment="Top" Width="772" Height="68" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="20"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="68" Margin="10,0,0,11" VerticalAlignment="Bottom" Width="287" Background="#FF4D4D4D">
-            <Label Content="Go To Main Menu" Margin="-1" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="If it worked, please report it at our forum, so that we can add it to the working list.&#xD;&#xA;You can go to the main menu or close this program" HorizontalAlignment="Left" Margin="10,268,0,0" VerticalAlignment="Top" Width="772" Height="68" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="68" Margin="10,0,0,11" VerticalAlignment="Bottom" Width="287" Background="#FF111111">
+            <Label Content="Go To Main Menu" Margin="-1" Foreground="#FFE0E0E0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="68" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="287" Background="#FF4D4D4D">
-            <Label Content="Close Program" Margin="-1" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="68" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="287" Background="#FF111111">
+            <Label Content="Close Program" Margin="-1" Foreground="#FFE0E0E0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,0,0,11" VerticalAlignment="Bottom" Width="287" Height="68" Opacity="0" Click="Button_Click"/>
         <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,10,11" VerticalAlignment="Bottom" Width="287" Height="68" Opacity="0" Click="Button_Click_1"/>

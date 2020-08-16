@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Flashing Permissiver v4" Height="250.516" Width="800" MinWidth="800" MinHeight="250.516" Background="#FF191919">
     <Grid>
-        <Label Content="Android 9" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="173" FontSize="36" FontFamily="Segoe UI Semibold" Foreground="White"/>
-        <Label Content="You are about to flash Permissiver v4 for Oreo and Pie. Do you want to continue?&#xA;Make sure your phone is in TWRP's ADB Sideload mode" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Height="78" Width="772" Foreground="White" FontSize="20" FontFamily="Segoe UI Semibold"/>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="52" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="218" Background="#FF4D4D4D">
-            <Label Content="Proceed" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Android 9" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="173" FontSize="36" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0"/>
+        <Label Content="You are about to flash Permissiver v4 for Oreo and Pie. Do you want to continue?&#xA;Make sure your phone is in TWRP's ADB Sideload mode" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Height="78" Width="772" Foreground="#FFE0E0E0" FontSize="20" FontFamily="Segoe UI Semibold"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="52" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="218" Background="#FF111111">
+            <Label Content="Proceed" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="218" Height="52" Opacity="0" Click="Button_Click" Margin="0,0,10,10"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF111111">
+            <Label Content="←" FontSize="36" Foreground="#FFE0E0E0" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
 

@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="Flashing GSI" Height="326" Width="800" MinWidth="850" Background="#FF191919" MinHeight="326">
     <Grid>
-        <Label Content="Warning" HorizontalAlignment="Left" Height="60" Margin="75,10,0,0" VerticalAlignment="Top" Width="159" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36" VerticalContentAlignment="Center"/>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="69" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="229" Background="#FF4D4D4D"/>
-        <Label Content="Proceed" HorizontalAlignment="Right" Height="69" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="229" Foreground="White" FontFamily="Segoe UI Semibold" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Warning" HorizontalAlignment="Left" Height="60" Margin="75,10,0,0" VerticalAlignment="Top" Width="159" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="36" VerticalContentAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="69" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="229" Background="#FF111111"/>
+        <Label Content="Proceed" HorizontalAlignment="Right" Height="69" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="229" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button Content="Button" HorizontalAlignment="Right" Height="69" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="229" Opacity="0" Click="Button_Click_1"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF4D4D4D">
-            <Label Content="←" FontSize="36" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF111111">
+            <Label Content="←" FontSize="36" Foreground="#FFE0E0E0" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click_3"/>
-        <TextBlock Margin="10,75,60,0" TextWrapping="Wrap" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="White" Height="138" VerticalAlignment="Top"><Run Text="Before proceeding, insert your system image in the system folder, your vbmeta (if required) in the vbmeta folder and your boot image in the boot folder."/><LineBreak/><Run Text="You also need an unlocked bootloader."/><LineBreak/><Run Text="If your phone gets bricked during the process, contact the GSI maker instead of me."/><LineBreak/><Run Text="Proceed with caution!"/></TextBlock>
+        <TextBlock Margin="10,75,60,0" TextWrapping="Wrap" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" Height="138" VerticalAlignment="Top"><Run Text="Before proceeding, insert your system image in the system folder, your vbmeta (if required) in the vbmeta folder and your boot image in the boot folder."/><LineBreak/><Run Text="You also need an unlocked bootloader."/><LineBreak/><Run Text="If your phone gets bricked during the process, contact the GSI maker instead of me."/><LineBreak/><Run Text="Proceed with caution!"/></TextBlock>
 
     </Grid>
 </Window>

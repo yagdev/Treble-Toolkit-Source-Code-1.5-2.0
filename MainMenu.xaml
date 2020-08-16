@@ -10,12 +10,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label Content="What do you want to do today?" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="488" Foreground="White" VerticalContentAlignment="Center" FontSize="36" HorizontalContentAlignment="Center" FontFamily="Segoe UI Light"/>
+        <Label Content="What do you want to do today?" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="488" Foreground="#FFE0E0E0" VerticalContentAlignment="Center" FontSize="36" HorizontalContentAlignment="Center" FontFamily="Segoe UI Light"/>
         <Rectangle Fill="#FF474747" HorizontalAlignment="Left" Height="276" Margin="10,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
         <Image Margin="10,83,0,0" Source="box+document+outline+share+top+upload+icon-1320195323221671611.png" Stretch="Fill" Height="193" VerticalAlignment="Top" HorizontalAlignment="Left" Width="198"/>
-        <Label Content="Flash Treble Image" HorizontalAlignment="Left" Height="78" Margin="10,281,0,0" VerticalAlignment="Top" Width="198" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Label Content="Flash Treble Image" HorizontalAlignment="Left" Height="78" Margin="10,281,0,0" VerticalAlignment="Top" Width="198" Foreground="#FFE0E0E0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
         <Rectangle Fill="#FF474747" HorizontalAlignment="Left" Height="276" Margin="238,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
-        <Label Content="Unlock Bootloader" HorizontalAlignment="Left" Height="78" Margin="238,281,0,0" VerticalAlignment="Top" Width="198" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Label Content="Unlock Bootloader" HorizontalAlignment="Left" Height="78" Margin="238,281,0,0" VerticalAlignment="Top" Width="198" Foreground="#FFE0E0E0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="238,83,0,0" Width="198" Background="White" Click="Button_Click" Height="276" VerticalAlignment="Top">
             <Button.OpacityMask>
                 <SolidColorBrush Color="Black" Opacity="0"/>
@@ -23,7 +23,7 @@
         </Button>
         <Image Margin="238,83,0,0" Source="89647-200.png" Stretch="Fill" HorizontalAlignment="Left" Width="198" Height="193" VerticalAlignment="Top"/>
         <Rectangle Fill="#FF474747" HorizontalAlignment="Left" Height="276" Margin="467,83,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
-        <Label Content="Flash TWRP" HorizontalAlignment="Left" Height="78" Margin="467,281,0,0" VerticalAlignment="Top" Width="198" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
+        <Label Content="Flash TWRP" HorizontalAlignment="Left" Height="78" Margin="467,281,0,0" VerticalAlignment="Top" Width="198" Foreground="#FFE0E0E0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="276" Margin="467,83,0,0" VerticalAlignment="Top" Width="198" Background="White" Click="Button_Click">
             <Button.OpacityMask>
                 <SolidColorBrush Color="Black" Opacity="0"/>
