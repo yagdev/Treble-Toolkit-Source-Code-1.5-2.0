@@ -151,5 +151,16 @@ namespace ProjectLiteCompatible
             process.Start();
             process.WaitForExit();
         }
+
+        private void Button_Click_13(object sender, RoutedEventArgs e)
+        {
+            Process process = new Process();
+            process.StartInfo.FileName = "changetheme.bat";
+            process.StartInfo.Arguments = @"-X";
+            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+            process.Start();
+            process.WaitForExit();
+            this.Close();
+        }
     }
 }
