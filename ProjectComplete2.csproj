@@ -441,5 +441,8 @@
   <ItemGroup>
     <Resource Include="kisspng-computer-icons-icon-design-encapsulated-postscript-more-info-icon-5b4fcee4a128a8.7836483215319569646601.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="moon-black-512.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
