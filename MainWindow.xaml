@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Main Menu" Height="406.295" Width="905.215" Background="#FF191919" HorizontalAlignment="Left" VerticalAlignment="Top" MinWidth="905.215" MinHeight="406.295">
     <Grid Margin="0,0,-8,-21">
-        <Label Content="Welcome to Treble Toolkit" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="36" Margin="10,10,355,319"/>
+        <Label Content="Welcome to Treble Toolkit" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="36" Margin="10,10,388,319"/>
         <Border BorderThickness="1" Height="67" Width="67" Background="#FF111111" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,12,28,0">
             <Image Margin="9" Source="kisspng-computer-icons-icon-design-encapsulated-postscript-more-info-icon-5b4fcee4a128a8.7836483215319569646601.png" Stretch="Fill"/>
         </Border>
@@ -44,5 +44,9 @@
         <Image Margin="66,148,737,120" Source="iconfinder_icon-flash_211664.png" Stretch="Fill" MaxWidth="102" MaxHeight="128"/>
         <Button x:Name="Button1" Content="Button" Opacity="0" Click="Button_Click_7" Margin="16,94,689,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="266" Width="200"/>
         <Button Content="Button" Click="Button_Click_6" Opacity="0" Margin="241,94,464,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="266" Width="200"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="67" Margin="0,12,316,0" VerticalAlignment="Top" Width="67" Background="#FF111111">
+            <Image Margin="9" Source="169367.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,12,316,0" VerticalAlignment="Top" Width="67" Height="63" Opacity="0" Click="Button_Click_13"/>
     </Grid>
 </Window>
