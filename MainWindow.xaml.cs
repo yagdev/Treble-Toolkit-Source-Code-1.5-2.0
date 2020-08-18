@@ -104,32 +104,30 @@ namespace ProjectComplete2
 
         private void Button_Click_11(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "help.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C start help.docx";
+            Process.Start("CMD.exe", strCmdText);
         }
 
         private void Button_Click_12(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "update.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "/C start https://github.com/yag-dev-xda/Treble-Toolkit-Source-Code/releases";
+            process.StartInfo = startInfo;
             process.Start();
-            process.WaitForExit();
         }
 
         private void Button_Click_13(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "changetheme.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "/C ren gui.exe gui3.exe & ren gui2.exe gui.exe & ren gui3.exe gui2.exe & gui.exe";
+            process.StartInfo = startInfo;
             process.Start();
-            process.WaitForExit();
             this.Close();
         }
     }

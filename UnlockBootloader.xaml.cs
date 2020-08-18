@@ -32,12 +32,8 @@ namespace ProjectComplete2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "unlockbootloader.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C adb.exe reboot-bootloader & fastboot.exe oem unlock";
+            Process.Start("CMD.exe", strCmdText);
             var win2 = new BootloaderFinish();
             win2.Show();
             this.Close();

@@ -27,12 +27,8 @@ namespace TrebleToolkit
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "flashpm10.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C adb.exe sideload 10.zip";
+            Process.Start("CMD.exe", strCmdText);
             var win2 = new FlashPM2();
             win2.Show();
             this.Close();
@@ -40,7 +36,7 @@ namespace TrebleToolkit
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            var win2 = new PmChoose();
+            var win2 = new More();
             win2.Show();
             this.Close();
         }

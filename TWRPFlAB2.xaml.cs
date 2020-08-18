@@ -34,12 +34,8 @@ namespace ProjectComplete2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "flashtwrpab2.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C cd .. & mkdir Place_Files_Here & cd Place_Files_Here & mkdir TWRP & cd TWRP & ren *.zip twrp.zip & cd .. & cd .. & cd assets & adb.exe sideload ../Place_Files_Here/TWRP/twrp.zip";
+            Process.Start("CMD.exe", strCmdText);
             var win2 = new TWRPFlashed();
             win2.Show();
             this.Close();

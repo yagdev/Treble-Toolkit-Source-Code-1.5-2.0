@@ -12,7 +12,7 @@
             <Label Content="Close" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0,0,-1,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
         <Button Content="Button" Margin="10,0,10,10" VerticalAlignment="Bottom" Height="50" Opacity="0" Click="Button_Click"/>
-        <TextBlock Margin="10,65,10,70" TextWrapping="Wrap" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold"><Run Text="Version: 1."/><Run Text="5."/><Run Text="1"/><Run Text="."/><Run Text="0"/><LineBreak/><Run/><LineBreak/><Run Text="Platform: Microsoft Windows"/><LineBreak/><Run/><LineBreak/><Run Text="Minimum Version: Windows "/><Run Text="7"/><LineBreak/><Run/><LineBreak/><Run Text="Changelog:"/><Run Text=" "/><Run Text="Added Theme Toggle"/><LineBreak/><Run/><LineBreak/><Run Text="Developer: YAG-DEV (stevegsames)"/><LineBreak/><Run/><LineBreak/><Run Text="©2020 YAG-DEV"/></TextBlock>
+        <TextBlock Margin="10,65,10,70" TextWrapping="Wrap" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold"><Run Text="Version: "/><Run Text="2.0"/><LineBreak/><Run/><LineBreak/><Run Text="Platform: Microsoft Windows"/><LineBreak/><Run/><LineBreak/><Run Text="Minimum Version: Windows "/><Run Text="7"/><LineBreak/><Run/><LineBreak/><Run Text="Changelog:"/><Run Text=" "/><Run Text="Changed aplication structure. App is now 9MB!"/><LineBreak/><Run/><LineBreak/><Run Text="Developer: YAG-DEV (stevegsames)"/><LineBreak/><Run/><LineBreak/><Run Text="©2020 YAG-DEV"/></TextBlock>
 
     </Grid>
 </Window>

@@ -170,12 +170,6 @@
     <Compile Include="Android10PM.xaml.cs">
       <DependentUpon>Android10PM.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Android8PM.xaml.cs">
-      <DependentUpon>Android8PM.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Android9.xaml.cs">
-      <DependentUpon>Android9.xaml</DependentUpon>
-    </Compile>
     <Compile Include="BootFinished.xaml.cs">
       <DependentUpon>BootFinished.xaml</DependentUpon>
     </Compile>
@@ -209,9 +203,6 @@
     <Compile Include="OnePlus6.xaml.cs">
       <DependentUpon>OnePlus6.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PmChoose.xaml.cs">
-      <DependentUpon>PmChoose.xaml</DependentUpon>
-    </Compile>
     <Compile Include="TWRPFlAB.xaml.cs">
       <DependentUpon>TWRPFlAB.xaml</DependentUpon>
     </Compile>
@@ -242,14 +233,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Android10PM.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Android8PM.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Android9.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -313,10 +296,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OnePlus6.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="PmChoose.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -443,6 +422,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="moon-black-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1200px-Info_icon-72a7cf.svg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

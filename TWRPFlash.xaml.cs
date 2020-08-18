@@ -32,12 +32,8 @@ namespace ProjectComplete2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "flashtwrp.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C adb.exe reboot-bootloader & cd .. & mkdir Place_Files_Here & cd Place_Files_Here & mkdir TWRP & cd TWRP & ren *.img twrp.img & cd .. & cd .. & cd assets & fastboot.exe flash recovery ../Place_Files_Here/TWRP/twrp.img & fastboot.exe reboot";
+            Process.Start("CMD.exe", strCmdText);
             var win2 = new TWRPFlashed();
             win2.Show();
             this.Close();

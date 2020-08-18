@@ -32,12 +32,8 @@ namespace ProjectComplete2
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "flashtwrpab.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C adb.exe reboot-bootloader & cd .. & cd Place_Files_Here & cd TWRP & ren *.img twrp.img & ren *.zip twrp.zip & cd .. & cd .. & cd assets & fastboot.exe boot ../Place_Files_Here/TWRP/twrp.img";
+            Process.Start("CMD.exe", strCmdText);
             var win2 = new TWRPFlAB2();
             win2.Show();
             this.Close();

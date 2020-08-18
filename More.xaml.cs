@@ -35,7 +35,7 @@ namespace TrebleToolkit
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            var win2 = new PmChoose();
+            var win2 = new Android10PM();
             win2.Show();
             this.Close();
         }
@@ -54,32 +54,30 @@ namespace TrebleToolkit
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "installdrv.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "/C start https://adb.clockworkmod.com/";
+            process.StartInfo = startInfo;
             process.Start();
-            process.WaitForExit();
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "freecmd.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C cd .. & cd FreeCMD & start FreeCMD.exe";
+            Process.Start("CMD.exe", strCmdText);
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "xdathread.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "/C start https://forum.xda-developers.com/project-treble/trebleenabled-device-development/treble-gsi-flashing-tool-b-t4040435";
+            process.StartInfo = startInfo;
             process.Start();
-            process.WaitForExit();
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
@@ -90,12 +88,9 @@ namespace TrebleToolkit
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            Process process = new Process();
-            process.StartInfo.FileName = "uninstall.bat";
-            process.StartInfo.Arguments = @"-X";
-            process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
-            process.Start();
-            process.WaitForExit();
+            const string strCmdText = "/C cd .. & del * /f /q & del assets /f /q & del FreeCMD /f /q";
+            Process.Start("CMD.exe", strCmdText);
+            this.Close();
         }
     }
 }

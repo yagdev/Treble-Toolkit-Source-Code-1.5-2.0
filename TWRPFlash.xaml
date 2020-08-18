@@ -11,7 +11,7 @@
         <Label Content="https://forum.xda-developers.com/project-treble/trebleenabled-device-development/treble-gsi-flashing-tool-b-t4040435" Margin="0,222.5,0,0" VerticalAlignment="Top" Height="41" Background="{x:Null}" Foreground="#FF0068FF" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold"/>
         <Border BorderThickness="1" HorizontalAlignment="Right" Height="72" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="262" Background="#FFB2B2B2"/>
         <Label Content="Proceed" HorizontalAlignment="Right" Margin="0,0,10,11" VerticalAlignment="Bottom" Height="72" Width="262" Foreground="#FF3E3E3E" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold"/>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,-209,11" VerticalAlignment="Bottom" Width="262" Height="72" Opacity="0" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,0,10,11" VerticalAlignment="Bottom" Width="262" Height="72" Opacity="0" Click="Button_Click_1"/>
         <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FFB2B2B2">
             <Label Content="←" FontSize="36" Foreground="#FF3E3E3E" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
