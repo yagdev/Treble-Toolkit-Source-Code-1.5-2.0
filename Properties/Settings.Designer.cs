@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TrebleToolkit.Properties {
+namespace TrebleToolkitLite.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
