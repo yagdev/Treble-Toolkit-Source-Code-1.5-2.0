@@ -5,40 +5,40 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TrebleToolkit"
         mc:Ignorable="d"
-        Title="Extras" Height="558.5" Width="1013" MinWidth="1013" MinHeight="558.5" Background="#FFC9C9C9">
+        Title="Extras" Height="558.5" Width="1013" MinWidth="1013" MinHeight="558.5" Background="#FF191919">
     <Grid>
-        <Label Content="Which one fits your necessities?" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="541" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="36"/>
-        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FFB2B2B2">
-            <Label Content="←" FontSize="36" Foreground="#FF3E3E3E" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
+        <Label Content="Which one fits your necessities?" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="541" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="36"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF111111">
+            <Label Content="←" FontSize="36" Foreground="#FFE0E0E0" VerticalAlignment="Center" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI Semibold" Height="60" Margin="9,-1"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Opacity="0" Click="Button_Click"/>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="10,86,795,0" VerticalAlignment="Top" Width="200" Background="#FFB2B2B2">
-            <Label Content="Permissiver Flasher" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="10,86,795,0" VerticalAlignment="Top" Width="200" Background="#FF111111">
+            <Label Content="Permissiver Flasher" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Center" Margin="10,86,795,0" VerticalAlignment="Top" Width="200" Height="201" Opacity="0" Click="Button_Click_1"/>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="269,85,536,0" VerticalAlignment="Top" Width="200" Background="#FFB2B2B2">
-            <Label Content="Compatible Devices" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,85,-1,77" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="269,85,536,0" VerticalAlignment="Top" Width="200" Background="#FF111111">
+            <Label Content="Compatible Devices" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,85,-1,77" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="269,85,536,0" VerticalAlignment="Top" Width="200" Height="200" Opacity="0" Click="Button_Click_3"/>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="524,86,281,0" VerticalAlignment="Top" Width="200" Background="#FFB2B2B2">
-            <Label Content="Install ADB Drivers" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,76,-1,70" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" Height="52" HorizontalAlignment="Center" Width="200"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="269,86,536,0" VerticalAlignment="Top" Width="200" Height="200" Opacity="0" Click="Button_Click_3"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="524,86,281,0" VerticalAlignment="Top" Width="200" Background="#FF111111">
+            <Label Content="Install ADB Drivers" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,76,-1,70" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" Height="52" HorizontalAlignment="Center" Width="200"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="524,87,281,0" VerticalAlignment="Top" Width="200" Height="200" Opacity="0" Click="Button_Click_4"/>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="783,86,22,0" VerticalAlignment="Top" Width="200" Background="#FFB2B2B2">
-            <Label Content="Free CMD" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,78,-1,69" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" Height="51" HorizontalAlignment="Center" Width="208"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="524,86,281,0" VerticalAlignment="Top" Width="200" Height="200" Opacity="0" Click="Button_Click_4"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="783,86,22,0" VerticalAlignment="Top" Width="200" Background="#FF111111">
+            <Label Content="Free CMD" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,78,-1,69" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Top" Height="51" HorizontalAlignment="Center" Width="208"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="783,85,22,0" VerticalAlignment="Top" Width="200" Height="200" Opacity="0" Click="Button_Click_5"/>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="10,321,795,6" VerticalAlignment="Center" Width="200" Background="#FFB2B2B2">
-            <Label Content="Go to XDA" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="783,87,22,0" VerticalAlignment="Top" Width="200" Height="200" Opacity="0" Click="Button_Click_5"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="10,321,795,6" VerticalAlignment="Center" Width="200" Background="#FF111111">
+            <Label Content="Go to XDA" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Border>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="269,321,536,6" VerticalAlignment="Center" Width="200" Background="#FFB2B2B2">
-            <Label Content="View Changelog" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="269,321,536,6" VerticalAlignment="Center" Width="200" Background="#FF111111">
+            <Label Content="View Changelog" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Border>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="524,321,281,6" VerticalAlignment="Center" Width="200" Background="#FFB2B2B2">
-            <Label Content="Uninstall" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="524,321,281,6" VerticalAlignment="Center" Width="200" Background="#FF111111">
+            <Label Content="Uninstall" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Border>
-        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="783,321,22,6" VerticalAlignment="Center" Width="200" Background="#FFB2B2B2">
-            <Label Content="More to Come" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Border BorderThickness="1" HorizontalAlignment="Center" Height="200" Margin="783,321,22,6" VerticalAlignment="Center" Width="200" Background="#FF111111">
+            <Label Content="More to Come" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,83,-1,79" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </Border>
         <Button Content="Button" HorizontalAlignment="Center" Margin="10,321,795,6" VerticalAlignment="Center" Width="200" Height="200" Opacity="0" HorizontalContentAlignment="Left" Click="Button_Click_6"/>
         <Button Content="Button" HorizontalAlignment="Center" Margin="269,321,536,6" VerticalAlignment="Center" Width="200" Height="200" Opacity="0" Click="Button_Click_7"/>

@@ -373,12 +373,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="1200px-Infobox_info_icon.svg.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="4485615.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="770px-Android_Oreo_8.1_logo.svg.png" />
   </ItemGroup>
   <ItemGroup>
@@ -421,10 +415,7 @@
     <Resource Include="kisspng-computer-icons-icon-design-encapsulated-postscript-more-info-icon-5b4fcee4a128a8.7836483215319569646601.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="moon-black-512.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="1200px-Info_icon-72a7cf.svg.png" />
+    <Resource Include="169367.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

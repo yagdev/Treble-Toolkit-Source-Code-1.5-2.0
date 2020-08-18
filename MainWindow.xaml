@@ -5,48 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectComplete2"
         mc:Ignorable="d"
-        Title="Main Menu" Height="406.295" Width="905.215" Background="#FFC9C9C9" HorizontalAlignment="Left" VerticalAlignment="Top" MinWidth="905.215" MinHeight="406.295">
+        Title="Main Menu" Height="406.295" Width="905.215" Background="#FF191919" HorizontalAlignment="Left" VerticalAlignment="Top" MinWidth="905.215" MinHeight="406.295">
     <Grid Margin="0,0,-8,-21">
-        <Label Content="Welcome to Treble Toolkit" Foreground="#FF3E3E3E" FontFamily="Segoe UI Semibold" FontSize="36" Margin="10,10,379,319"/>
-        <Border BorderThickness="1" Height="67" Width="67" Background="#FFB2B2B2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,8,19,0">
-            <Image Margin="9" Source="1200px-Info_icon-72a7cf.svg.png" Stretch="Fill"/>
+        <Label Content="Welcome to Treble Toolkit" Foreground="#FFE0E0E0" FontFamily="Segoe UI Semibold" FontSize="36" Margin="10,10,388,319"/>
+        <Border BorderThickness="1" Height="67" Width="67" Background="#FF111111" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,12,28,0">
+            <Image Margin="9" Source="kisspng-computer-icons-icon-design-encapsulated-postscript-more-info-icon-5b4fcee4a128a8.7836483215319569646601.png" Stretch="Fill"/>
         </Border>
-        <Border BorderThickness="1" Height="67" Width="67" Background="#FFB2B2B2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,8,91,0">
+        <Border BorderThickness="1" Height="67" Width="67" Background="#FF111111" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,12,100,0">
             <Image Margin="9" Source="28599-200.png" Stretch="Fill"/>
         </Border>
-        <Button Content="Button" Height="67" Width="67" Opacity="0" Click="Button_Click_5" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,9,91,0"/>
-        <Button Content="Button" Width="67" Height="63" Opacity="0" Click="Button_Click_9" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,19,0"/>
-        <Border BorderThickness="1" Background="#FFB2B2B2" Margin="16,92,689,36" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="268">
-            <Label Content="Flash GSI" Margin="-1,217,-1,-1" Foreground="#FF3E3E3E" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Height="50" Width="200"/>
+        <Button Content="Button" Height="67" Width="67" Opacity="0" Click="Button_Click_5" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,12,100,0"/>
+        <Button Content="Button" Width="67" Height="63" Opacity="0" Click="Button_Click_9" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,14,28,0"/>
+        <Border BorderThickness="1" Background="#FF111111" Margin="16,92,689,36" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="268">
+            <Label Content="Flash GSI" Margin="-1,217,-1,-1" Foreground="#FFE0E0E0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Height="50" Width="200"/>
         </Border>
-        <Border BorderThickness="1" Background="#FFB2B2B2" Margin="241,92,464,36" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="268">
-            <Label Content="Flash/Boot TWRP" Foreground="#FF3E3E3E" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,217,-1,-1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="200"/>
+        <Border BorderThickness="1" Background="#FF111111" Margin="241,92,464,36" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="268">
+            <Label Content="Flash/Boot TWRP" Foreground="#FFE0E0E0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,217,-1,-1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="200"/>
         </Border>
-        <Border BorderThickness="1" Background="#FFB2B2B2" Margin="461,92,244,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="268" Width="200">
-            <Label Content="Unlock Bootloader" Foreground="#FF3E3E3E" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,217,-1,-1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="200"/>
+        <Border BorderThickness="1" Background="#FF111111" Margin="461,92,244,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="268" Width="200">
+            <Label Content="Unlock Bootloader" Foreground="#FFE0E0E0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="20" Margin="-1,217,-1,-1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="200"/>
         </Border>
-        <Border BorderThickness="1" Background="#FFB2B2B2" Margin="680,92,25,36" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="268">
-            <Label Content="+" Margin="-1,-1,-1,71" FontFamily="Segoe UI Semibold" FontSize="144" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="195" Foreground="#FF3E3E3E"/>
+        <Border BorderThickness="1" Background="#FF111111" Margin="680,92,25,36" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="268">
+            <Label Content="+" Margin="-1,-1,-1,71" FontFamily="Segoe UI Semibold" FontSize="144" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center" Width="200" Height="195" Foreground="#FFE0E0E0"/>
         </Border>
-        <Label Content="More" Foreground="#FF3E3E3E" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Margin="681,310,24,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="200"/>
-        <Button Content="Button" Opacity="0" Click="Button_Click_10" Margin="680,95,27,35" VerticalAlignment="Center" HorizontalAlignment="Center" Height="266" Width="198"/>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="67" Margin="0,8,163,0" VerticalAlignment="Top" Width="67" Background="#FFB2B2B2">
-            <Label Content="?" Margin="-1" FontFamily="Segoe UI Semibold" FontSize="36" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF3E3E3E"/>
+        <Label Content="More" Foreground="#FFE0E0E0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Margin="681,310,24,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="200"/>
+        <Button Content="Button" Opacity="0" Click="Button_Click_10" Margin="682,94,25,36" VerticalAlignment="Center" HorizontalAlignment="Center" Height="266" Width="198"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="67" Margin="0,12,172,0" VerticalAlignment="Top" Width="67" Background="#FF111111">
+            <Label Content="?" Margin="-1" FontFamily="Segoe UI Semibold" FontSize="36" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFE0E0E0"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,9,163,0" VerticalAlignment="Top" Width="67" Height="65" Opacity="0" Click="Button_Click_11"/>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="67" Margin="0,8,235,0" VerticalAlignment="Top" Width="67" Background="#FFB2B2B2">
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,13,172,0" VerticalAlignment="Top" Width="67" Height="65" Opacity="0" Click="Button_Click_11"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="67" Margin="0,12,244,0" VerticalAlignment="Top" Width="67" Background="#FF111111">
             <Image Margin="-1" Source="images.png" Stretch="Fill"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,8,235,0" VerticalAlignment="Top" Width="67" Height="64" Opacity="0" Click="Button_Click_12"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,14,244,0" VerticalAlignment="Top" Width="67" Height="63" Opacity="0" Click="Button_Click_12"/>
         <Image Margin="492,148,277,120" Source="unlocking-solid-512.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="136" MaxHeight="128"/>
-        <Button Content="Button" Opacity="0" Click="Button_Click_8" Margin="461,95,0,36" HorizontalAlignment="Left" VerticalAlignment="Center" Height="265" Width="199"/>
+        <Button Content="Button" Opacity="0" Click="Button_Click_8" Margin="462,92,0,39" HorizontalAlignment="Left" VerticalAlignment="Center" Height="265" Width="199"/>
         <Image Margin="279,148,498,120" Source="icon.png" Stretch="Fill" MaxWidth="128" MaxHeight="128"/>
         <Image Margin="66,148,737,120" Source="iconfinder_icon-flash_211664.png" Stretch="Fill" MaxWidth="102" MaxHeight="128"/>
-        <Button x:Name="Button1" Content="Button" Opacity="0" Click="Button_Click_7" Margin="16,91,689,39" HorizontalAlignment="Center" VerticalAlignment="Center" Height="266" Width="200"/>
-        <Button Content="Button" Click="Button_Click_6" Opacity="0" Margin="241,91,464,39" HorizontalAlignment="Center" VerticalAlignment="Center" Height="266" Width="200"/>
-        <Border BorderThickness="1" HorizontalAlignment="Right" Height="67" Margin="0,8,307,0" VerticalAlignment="Top" Width="67" Background="#FFB2B2B2">
-            <Image Margin="9" Source="moon-black-512.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button x:Name="Button1" Content="Button" Opacity="0" Click="Button_Click_7" Margin="16,94,689,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="266" Width="200"/>
+        <Button Content="Button" Click="Button_Click_6" Opacity="0" Margin="241,94,464,36" HorizontalAlignment="Center" VerticalAlignment="Center" Height="266" Width="200"/>
+        <Border BorderThickness="1" HorizontalAlignment="Right" Height="67" Margin="0,12,316,0" VerticalAlignment="Top" Width="67" Background="#FF111111">
+            <Image Margin="9" Source="169367.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Border>
-        <Button Content="Button" HorizontalAlignment="Right" Margin="0,10,307,0" VerticalAlignment="Top" Width="67" Height="63" Opacity="0" Click="Button_Click_13"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="0,12,316,0" VerticalAlignment="Top" Width="67" Height="63" Opacity="0" Click="Button_Click_13"/>
     </Grid>
 </Window>

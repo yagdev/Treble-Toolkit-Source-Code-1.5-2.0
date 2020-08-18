@@ -8,7 +8,7 @@
         Title="XDAThread" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid Background="#FF444444">
         <WebBrowser x:Name="myweb" Margin="10,75,22,10"/>
-        <Label Content="XDA Thread" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="197" Foreground="White" FontFamily="Segoe UI Light" FontSize="36"/>
+        <Label Content="XDA Thread" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Height="60" Width="197" Foreground="#FFE0E0E0" FontFamily="Segoe UI Light" FontSize="36"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="60" Background="#FF747474">
             <Image Margin="5,-1" Source="61752.png" Stretch="Fill"/>
         </Border>
