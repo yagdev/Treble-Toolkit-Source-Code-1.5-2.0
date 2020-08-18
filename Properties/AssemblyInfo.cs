@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Treble Toolkit")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Treble Toolkit Launcher")]
+[assembly: AssemblyDescription("Fun fact - Treble Toolkit is retrocompatible with older launchers, so you can choose the one that looks better.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("YAG-dev")]
-[assembly: AssemblyProduct("Treble Toolkit")]
+[assembly: AssemblyProduct("Treble Toolkit Launcher")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
