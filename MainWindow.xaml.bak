@@ -1,0 +1,64 @@
+﻿<Window x:Class="ProjectLiteCompatible.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectLiteCompatible"
+        mc:Ignorable="d"
+        Title="Treble Toolkit Lite" Height="665" Width="300" Background="#FF191919">
+    <Grid>
+        <Label Content="Treble Toolkit Lite" HorizontalAlignment="Center" Margin="10,3,10,0" VerticalAlignment="Top" Width="272" Height="43" FontFamily="Segoe UI Semibold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="#FFE0E0E0"/>
+        <Border BorderThickness="1" Height="40" Margin="10,46,10,548" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Flash A ROMs" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,91,10,503" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Flash A/B ROMs" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,136,10,458" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Flash TWRP A" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,181,10,413" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Flash TWRP A/B" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,226,10,368" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Boot TWRP" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,271,10,323" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Unlock Bootloader" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,316,10,278" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Flash Permissiver" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,361,10,233" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Install ADB Drivers" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,406,10,188" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="FreeCMD" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,451,10,143" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Go to XDA" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,496,10,98" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="View Changelog" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border BorderThickness="1" Height="40" Margin="10,541,10,53" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Uninstall" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Button Content="Button" Margin="0,91,0,503" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_1"/>
+        <Button Content="Button" Margin="0,136,0,458" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_2"/>
+        <Button Content="Button" Margin="0,181,0,413" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_3"/>
+        <Button Content="Button" Margin="0,226,0,368" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_4"/>
+        <Button Content="Button" Margin="0,271,0,323" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_5"/>
+        <Button Content="Button" Margin="0,316,0,278" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_6"/>
+        <Button Content="Button" Margin="0,361,0,233" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_7"/>
+        <Button Content="Button" Margin="0,406,0,188" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_8"/>
+        <Button Content="Button" Margin="0,451,0,143" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_9"/>
+        <Button Content="Button" Margin="0,496,0,98" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_10"/>
+        <Button Content="Button" Margin="0,541,0,53" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_11"/>
+        <Button Content="Button" Margin="0,46,0,548" VerticalAlignment="Center" Height="40" Opacity="0" HorizontalContentAlignment="Stretch" Grid.IsSharedSizeScope="True" Click="Button_Click"/>
+        <Border BorderThickness="1" Height="40" Margin="10,586,10,8" VerticalAlignment="Center" Background="#FF4D4D4D">
+            <Label Content="Compatible Devices" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Segoe UI Semibold" Foreground="#FFE0E0E0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Button Content="Button" Margin="0,586,0,8" VerticalAlignment="Center" Height="40" Opacity="0" Click="Button_Click_12"/>
+    </Grid>
+</Window>
